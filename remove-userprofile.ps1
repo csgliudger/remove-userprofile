@@ -57,7 +57,7 @@ Function Main {
 		}
 	}
 	If (-Not ($profileFound)) {
-		Write-Host "Geen profiel gevonden voor gebruiker $username";
+		Write-Host "Geen profiel gevonden voor gebruiker $username"
 	}
 	Write-Host "=== remove-userprofile.ps1 afgesloten"
 	RestartScript
